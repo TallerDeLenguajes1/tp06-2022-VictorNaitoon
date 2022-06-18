@@ -4,7 +4,7 @@ Empleado trabajador3 = new Empleado("Jose","Leguizamon",'C','M',new DateTime(196
 
 double MontoAPagar = trabajador1.MontoACobrar() + trabajador2.MontoACobrar() + trabajador3.MontoACobrar();
 
-Console.WriteLine("El monto que la industria debe pagar por los tres empleado es de: "+MontoAPagar);
+Console.WriteLine("El monto que la industria debe pagar por los tres empleado es de: $"+MontoAPagar);
 
 if (trabajador1.Jubilacion() < trabajador2.Jubilacion() && trabajador1.Jubilacion() < trabajador3.Jubilacion()){
     Console.WriteLine("El trabajador mas proximo a jubilarse es: ");
